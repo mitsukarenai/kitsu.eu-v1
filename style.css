@@ -1,0 +1,26 @@
+body {font-family:sans-serif;padding:0.5em;background-color:#ffddac;background-image:linear-gradient(#eee, #ffddac);background-attachment:fixed;}
+a {color:red;}
+nav ul li {display:inline-block;background-color:white;padding:1em 0 1em 0;border-top:1px solid;border-radius:8px 8px 0px 0px;}
+nav ul li#current {background-color:#f7ffdd;padding:1.4em 0 1em 0}
+nav ul li:hover {background-color:#e9ffa7;}
+nav ul li a {padding:1em;margin:0;color:black;text-decoration:none;}
+article {padding:0.8em;border:1px outset;float:left;border-radius:8px;background-color:white;margin:0 1em 1em 1em;min-width:95%}
+ul {list-style: square;}
+h1 {padding-left:0.5em;margin:0;}
+h2 {padding-left:1em;margin:0;text-decoration:underline;}
+p {padding:1em;font-style:italic;}
+form {margin-left:2em;}
+textarea {min-width:50em;min-height:7em;}
+img {vertical-align:middle;}
+img.btc{width:32px;height:32px;background:url(cryptosprites.png) 0 0;}
+img.ltc{width:32px;height:32px;background:url(cryptosprites.png) -32px 0;}
+img.dash{width:32px;height:32px;background:url(cryptosprites.png) -64px 0;}
+img.doge{width:32px;height:32px;background:url(cryptosprites.png) -96px 0;}
+img.nobl{width:32px;height:32px;background:url(cryptosprites.png) -128px 0;}
+img.xmr{width:32px;height:32px;background:url(cryptosprites.png) -160px 0;}
+table {font-family:monospace;}
+tr:hover {background-color:#f7ffdd;}
+td {border:1px dotted;padding:0.5em;}
+ul.rep li {display:inline-block;border:1px dotted;padding:1em 0em 1em 0em;margin:0.5em;border-radius:3px;}
+ul.rep li a {padding:1em;margin:0em}
+ul.rep li:hover {background-color:#f7ffdd;}
